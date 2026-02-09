@@ -1,0 +1,86 @@
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+.breadcrumb {
+  margin-block: 1rem;
+  text-align: start;
+  ol {
+    display: flex;
+    gap: 10px;
+    li > a {
+      color: #666;
+      font-weight: normal;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    li:not(li:last-child)::after {
+      content: "/";
+      margin-left: 10px;
+    }
+    li:last-child {
+      color: inherit;
+      /* the last link isn't usually a link */
+      pointer-events: none;
+    }
+  }
+}
+
+.job-details {
+  background: inherit;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 90%;
+  box-shadow: unset;
+  border-radius: unset;
+  header {
+    border: none;
+    padding: 0;
+  }
+  header,
+  section {
+    margin-bottom: 20px;
+    h2 {
+      margin-bottom: 0.8rem;
+    }
+  }
+  header button {
+    display: none;
+  }
+  section:last-of-type {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 3rem;
+  }
+  button {
+    font-weight: 600;
+    box-shadow: 0px 1px 5px 0px #09f;
+  }
+
+  & > button {
+    /* reset display for default */
+    display: block;
+    /* position the button to the right */
+    margin-left: auto;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    &::before {
+      content: "";
+      width: 18px;
+      height: 18px;
+      background-image: url("../assets/icons/check-icon.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+}
+@media (width >= 768px) {
+  .job-details {
+    header button {
+      display: block;
+    }
+  }
+}

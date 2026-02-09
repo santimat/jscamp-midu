@@ -1,0 +1,352 @@
+[
+  {
+    "id": "7a4d1d8b-1e45-4d8c-9f1a-8c2f9a9121a4",
+    "title": "Senior Software Developer",
+    "company": "Tech Solutions Inc.",
+    "location": "Remote",
+    "description": "We are looking for a software engineer with experience in web development and knowledge of JavaScript, React and Node.js. The ideal candidate should be able to work in a team and have good communication skills.",
+    "responsibilities": [
+      "Design and implement scalable software solutions",
+      "Mentor junior developers on the team",
+      "Perform code reviews and ensure quality",
+      "Participate in systems architecture",
+      "Solve complex technical problems"
+    ],
+    "requirements": [
+      "5+ years of web development experience",
+      "Mastery of JavaScript, React and Node.js",
+      "Experience in systems architecture",
+      "Excellent communication skills",
+      "Leadership and mentoring ability"
+    ],
+    "technology": ["react", "node", "javascript"],
+    "modality": "remote",
+    "level": "senior",
+    "about": "This position is ideal for a professional passionate about technology and software development, seeking a collaborative and challenging environment."
+  },
+  {
+    "id": "d35b2c89-5d60-4f26-b19a-6cfb2f1a0f57",
+    "title": "Data Analyst",
+    "company": "Data Driven Co.",
+    "location": "Mexico City",
+    "description": "We are looking for a data analyst with experience in handling large datasets and visualization tools. Knowledge of SQL, Python and R is required.",
+    "responsibilities": [
+      "Extract and clean data from multiple sources",
+      "Create dashboards and analytical reports",
+      "Identify trends and patterns in data",
+      "Collaborate with business teams on insights",
+      "Maintain data integrity and quality"
+    ],
+    "requirements": [
+      "Mastery of SQL and Python",
+      "Experience with visualization tools (Tableau, Power BI)",
+      "Knowledge of statistics and exploratory analysis",
+      "Ability to communicate insights to stakeholders",
+      "Experience with large datasets"
+    ],
+    "technology": ["python"],
+    "modality": "cdmx",
+    "level": "junior",
+    "about": "This role is perfect for those who enjoy working with data and seek to impact strategic decision-making."
+  },
+  {
+    "id": "e31f9a92-61d7-4b7a-b3a2-91e8c1f40b2d",
+    "title": "Mobile Application Developer",
+    "company": "Mobile Apps Ltd.",
+    "location": "Guadalajara",
+    "description": "We are looking for a mobile application developer with experience in iOS and/or Android. The candidate must have knowledge of Swift, Kotlin and user interface development.",
+    "responsibilities": [
+      "Develop native applications for iOS and Android",
+      "Design intuitive and attractive user interfaces",
+      "Optimize performance and resource consumption",
+      "Implement testing and debugging of applications",
+      "Collaborate with UX/UI designers"
+    ],
+    "requirements": [
+      "Experience in iOS development (Swift) or Android (Kotlin)",
+      "Knowledge of mobile application lifecycle",
+      "Familiarity with Git and version control",
+      "Ability to optimize performance and memory",
+      "Experience with RESTful APIs"
+    ],
+    "technology": ["mobile"],
+    "modality": "guadalajara",
+    "level": "mid-level",
+    "about": "This position is ideal for creatives who want to bring their ideas to life through innovative mobile applications."
+  },
+  {
+    "id": "f62d8a34-923a-4ac2-9b0b-14e0ac2f5405",
+    "title": "DevOps Engineer",
+    "company": "Cloud Services SA",
+    "location": "Remote",
+    "description": "We are looking for a DevOps engineer with experience in cloud infrastructure management, process automation and continuous integration tools. Knowledge of AWS, Azure or GCP is required.",
+    "responsibilities": [
+      "Manage cloud infrastructure",
+      "Automate deployment and testing processes",
+      "Configure and maintain CI/CD pipelines",
+      "Monitor and optimize system performance",
+      "Implement security and backup solutions"
+    ],
+    "requirements": [
+      "Experience with AWS, Azure or GCP",
+      "Mastery of CI/CD tools (Jenkins, GitLab CI)",
+      "Knowledge of Docker and Kubernetes",
+      "Scripting in Bash or Python",
+      "Experience in Infrastructure as Code (Terraform, CloudFormation)"
+    ],
+    "technology": ["mobile"],
+    "modality": "remote",
+    "level": "mid-level",
+    "about": "This role is perfect for those seeking to optimize processes and improve efficiency in development environments."
+  },
+  {
+    "id": "a9f31a8e-ec38-4fd3-9114-88cc6d37a92b",
+    "title": "UX/UI Designer",
+    "company": "Creative Minds Studio",
+    "location": "Barcelona",
+    "description": "We are looking for a UX/UI designer with a passion for creating exceptional digital experiences. Experience in Figma, user-centered design and collaboration with development teams is required.",
+    "responsibilities": [
+      "Create wireframes and interactive prototypes",
+      "Conduct user research and testing",
+      "Design attractive visual interfaces",
+      "Collaborate with developers on implementation",
+      "Iterate based on user feedback"
+    ],
+    "requirements": [
+      "Mastery of Figma and design tools",
+      "Experience in user research and testing",
+      "Knowledge of UX/UI principles",
+      "Portfolio with outstanding projects",
+      "Communication skills and user empathy"
+    ],
+    "technology": ["mobile"],
+    "modality": "barcelona",
+    "level": "mid-level",
+    "about": "This position is ideal for those who want to impact user experience through intuitive and attractive design."
+  },
+  {
+    "id": "c1b65b42-68c5-4f1c-a8c2-8d52c5a7a5d1",
+    "title": "Database Administrator",
+    "company": "Secure Data Corp.",
+    "location": "Buenos Aires",
+    "description": "A database administrator is sought with experience in PostgreSQL and MySQL. The candidate must ensure availability, security and performance of production databases.",
+    "responsibilities": [
+      "Manage and maintain production databases",
+      "Perform data backups and restorations",
+      "Optimize queries and database performance",
+      "Implement security and access policies",
+      "Monitor availability and alerts"
+    ],
+    "requirements": [
+      "Experience in PostgreSQL and/or MySQL",
+      "Knowledge of indexing, query optimization",
+      "Experience in monitoring and alerting",
+      "Knowledge of replication and backup",
+      "Familiarity with database administration tools"
+    ],
+    "technology": ["mobile"],
+    "modality": "bsas",
+    "level": "mid-level",
+    "about": "This role is ideal for those who enjoy working with data and seek to ensure its integrity and performance."
+  },
+  {
+    "id": "bb8f2a99-6a20-4f9e-912a-16f54a49b8c3",
+    "title": "Cybersecurity Specialist",
+    "company": "SafeNet Solutions",
+    "location": "Remote",
+    "description": "We are looking for a cybersecurity specialist with knowledge of infrastructure protection, vulnerability analysis and incident response. Experience with SIEM and security certifications will be valued.",
+    "responsibilities": [
+      "Perform vulnerability analysis and penetration testing",
+      "Design and implement security policies",
+      "Monitor and respond to security incidents",
+      "Maintain SIEM systems and detection tools",
+      "Train teams on security best practices"
+    ],
+    "requirements": [
+      "Experience in penetration testing and vulnerability analysis",
+      "Knowledge of SIEM and detection tools",
+      "Security certifications (CISSP, CEH, OSCP)",
+      "Experience in incident response",
+      "Knowledge of networks and operating systems"
+    ],
+    "technology": ["mobile"],
+    "modality": "remote",
+    "level": "mid-level",
+    "about": "This position is ideal for those seeking to protect critical systems and data in a dynamic environment."
+  },
+  {
+    "id": "fe7b2c54-4f47-4e2b-9e87-2b5413a6b24f",
+    "title": "Product Manager",
+    "company": "NextGen Technologies",
+    "location": "Madrid",
+    "description": "We are looking for a Product Manager with experience in defining and launching digital products. Analytical ability, leadership and knowledge of agile methodologies are required.",
+    "responsibilities": [
+      "Define product vision and strategy",
+      "Manage roadmap and priorities",
+      "Collaborate with technical and marketing teams",
+      "Analyze metrics and user data",
+      "Launch new features and products"
+    ],
+    "requirements": [
+      "5+ years in digital product management",
+      "Mastery of metrics and data analysis",
+      "Experience with agile methodologies (Scrum)",
+      "Leadership and communication skills",
+      "Market and competition knowledge"
+    ],
+    "technology": ["mobile"],
+    "modality": "madrid",
+    "level": "senior",
+    "about": "This role is ideal for those who want to lead the development of innovative, user-centered products."
+  },
+  {
+    "id": "a71f7a92-56d9-4b42-9f16-cb29b40e5f2c",
+    "title": "Frontend Developer",
+    "company": "Bright Web Studio",
+    "location": "Valencia",
+    "description": "We are looking for a frontend developer with experience in React, TypeScript and Tailwind CSS. Knowledge of performance optimization and web accessibility will be valued.",
+    "responsibilities": [
+      "Develop reusable React components",
+      "Implement responsive and accessible designs",
+      "Optimize performance and loading speed",
+      "Perform unit and integration testing",
+      "Maintain clean and documented code"
+    ],
+    "requirements": [
+      "Solid experience in React and JavaScript/TypeScript",
+      "Knowledge of CSS and Tailwind CSS",
+      "Experience in testing (Jest, React Testing Library)",
+      "Understanding of web accessibility (WCAG)",
+      "Familiarity with development tools (npm, webpack)"
+    ],
+    "technology": ["react"],
+    "modality": "valencia",
+    "level": "mid-level",
+    "about": "This position is ideal for those seeking to create attractive and functional interfaces that improve user experience."
+  },
+  {
+    "id": "f91e4c7b-3840-43da-8ad7-3a52e2a8cf1d",
+    "title": "Backend Developer",
+    "company": "APIWorks",
+    "location": "Bogotá",
+    "description": "We are looking for a backend developer with experience in Node.js, Express and NoSQL databases. Knowledge of microservices architecture is required.",
+    "responsibilities": [
+      "Develop REST APIs and microservices",
+      "Design and optimize databases",
+      "Implement authentication and authorization",
+      "Perform testing and debugging of applications",
+      "Document APIs and maintain code"
+    ],
+    "requirements": [
+      "Experience in Node.js and Express",
+      "Knowledge of NoSQL databases (MongoDB, Redis)",
+      "Experience with microservices architecture",
+      "Familiarity with REST APIs and GraphQL",
+      "Knowledge of unit and integration testing"
+    ],
+    "technology": ["node"],
+    "modality": "bogota",
+    "level": "mid",
+    "about": "This role is ideal for those seeking to build robust and scalable backend solutions."
+  },
+  {
+    "id": "b65a3c9f-b174-4d86-b8a2-9cf9b1e13a22",
+    "title": "Machine Learning Engineer",
+    "company": "AI Labs",
+    "location": "Remote",
+    "description": "We are looking for a machine learning engineer with experience in prediction models and data processing. Knowledge of TensorFlow, PyTorch and MLOps will be valued.",
+    "responsibilities": [
+      "Develop and train machine learning models",
+      "Perform feature engineering and exploratory analysis",
+      "Deploy models in production",
+      "Monitor and maintain trained models",
+      "Collaborate on research of new techniques"
+    ],
+    "requirements": [
+      "Experience in Python and ML libraries (TensorFlow, PyTorch)",
+      "Knowledge of statistics and mathematics",
+      "Experience in feature engineering",
+      "Familiarity with MLOps and model deployment",
+      "Experience in data processing"
+    ],
+    "technology": ["python"],
+    "modality": "remote",
+    "level": "senior",
+    "about": "This position is ideal for those seeking to innovate in the field of machine learning and artificial intelligence."
+  },
+  {
+    "id": "e8d13c45-36cb-46cf-8f9d-8a0a7b532b8b",
+    "title": "QA Automation Engineer",
+    "company": "Quality First",
+    "location": "Lima",
+    "description": "A QA engineer is sought with experience in test automation using tools such as Selenium, Cypress or Playwright. Desired knowledge in CI/CD.",
+    "responsibilities": [
+      "Develop and maintain automated test suites",
+      "Identify and document defects",
+      "Execute manual and exploratory testing",
+      "Integrate testing in CI/CD pipelines",
+      "Collaborate with developers on quality improvement"
+    ],
+    "requirements": [
+      "Experience in Selenium, Cypress or Playwright",
+      "Knowledge of manual and automated testing",
+      "Familiarity with CI/CD pipelines",
+      "Scripting in JavaScript or Python",
+      "Understanding of testing methodologies"
+    ],
+    "technology": ["mobile"],
+    "modality": "lima",
+    "level": "mid-level",
+    "about": "This role is ideal for those seeking to ensure software quality through test automation."
+  },
+  {
+    "id": "d2e93b8a-0b41-4d09-9a52-36a0f418d493",
+    "title": "Systems Administrator",
+    "company": "InfraTech Global",
+    "location": "Santiago de Chile",
+    "description": "We are looking for a systems administrator with experience in Linux, Docker and server monitoring. Knowledge of Bash or Python scripting will be a plus.",
+    "responsibilities": [
+      "Manage servers and operating systems",
+      "Configure and maintain Docker containers",
+      "Monitor performance and availability",
+      "Perform maintenance and updates",
+      "Automate tasks through scripting"
+    ],
+    "requirements": [
+      "Experience in Linux administration",
+      "Knowledge of Docker and containerization",
+      "Scripting in Bash and/or Python",
+      "Experience in systems monitoring",
+      "Familiarity with virtualization tools"
+    ],
+    "technology": ["mobile"],
+    "modality": "santiago",
+    "level": "mid-level",
+    "about": "This position is ideal for those seeking to maintain technology infrastructure in optimal conditions."
+  },
+  {
+    "id": "cc0c1fae-4e85-4e2c-9b02-f12f9df8a2c9",
+    "title": "Scrum Master",
+    "company": "Agile Minds",
+    "location": "Madrid",
+    "description": "We are looking for a Scrum Master with experience in agile methodologies and multidisciplinary team management. Scrum Master certification is desirable.",
+    "responsibilities": [
+      "Facilitate agile ceremonies (standup, planning, retro)",
+      "Remove team impediments",
+      "Promote continuous improvement culture",
+      "Manage backlog and priorities",
+      "Mentor team on agile practices"
+    ],
+    "requirements": [
+      "Scrum Master certification or similar",
+      "3+ years of experience in agile methodologies",
+      "Facilitation and leadership skills",
+      "Knowledge of management tools (Jira, Azure DevOps)",
+      "Conflict resolution ability"
+    ],
+    "technology": ["mobile"],
+    "modality": "madrid",
+    "level": "mid-level",
+    "about": "This role is ideal for those who want to guide teams toward excellence in agile product delivery."
+  }
+]

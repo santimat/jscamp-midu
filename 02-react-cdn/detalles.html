@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Details</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/details.css" />
+    <script type="module" src="./js/details.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="/">
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+          DevJobs
+        </a>
+      </h1>
+
+      <nav>
+        <!-- <a href="">
+        Inicio
+      </a> -->
+        <a href="">Empleos</a>
+      </nav>
+
+      <div>
+        <devjobs-avatar service="google" username="google.com" size="32">
+        </devjobs-avatar>
+
+        <devjobs-avatar service="google" username="netflix.com" size="32">
+        </devjobs-avatar>
+
+        <devjobs-avatar service="google" username="vercel.com" size="32">
+        </devjobs-avatar>
+      </div>
+    </header>
+
+    <main>
+      <nav class="breadcrumb">
+        <ol>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/empleos.html">Empleos</a></li>
+          <li>Detalles del empleo</li>
+        </ol>
+      </nav>
+      <div class="result"></div>
+      <template id="job-details">
+        <article class="job-details">
+          <header>
+            <div>
+              <h1></h1>
+              <span></span>
+            </div>
+            <button class="button-apply-job">Aplicar</button>
+          </header>
+          <section class="job-description">
+            <h2>Descripción del empleo</h2>
+            <p></p>
+          </section>
+          <section class="job-responsabilities">
+            <h2>Responsabilidades</h2>
+            <ul></ul>
+          </section>
+          <section class="job-requeriments">
+            <h2>Requisitos</h2>
+            <ul></ul>
+          </section>
+          <section class="job-about">
+            <h2>Acerca del empleo</h2>
+            <p></p>
+          </section>
+          <button class="button-apply-job">Aplicar</button>
+        </article>
+      </template>
+    </main>
+  </body>
+</html>
