@@ -1,0 +1,69 @@
+.jobDetails {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  display: flex;
+  font-size: 1rem;
+  li:not(li:last-child)::after {
+    content: "/";
+    margin-inline: 5px;
+  }
+  li:last-of-type {
+    text-decoration: underline;
+    pointer-events: none;
+  }
+}
+
+.jobDetailsArticle {
+  max-width: 90%;
+  margin: 0 auto;
+  background: inherit;
+  box-shadow: unset;
+
+  header {
+    border: none;
+    padding: 0;
+  }
+
+  section {
+    all: unset !important;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+  small {
+    font-size: 1rem;
+  }
+
+  button {
+    background: #09f;
+  }
+
+  .responsabilities {
+    h2 {
+      text-align: start;
+    }
+
+    li {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+    }
+    li::before {
+      content: "";
+      width: 22px;
+      height: 22px;
+      background-image: url("@icons/check-list.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}
+
+.breadcrumb,
+.jobDetailsArticle {
+  margin-top: 1.5rem;
+}

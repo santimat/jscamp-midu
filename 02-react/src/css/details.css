@@ -77,10 +77,3 @@ main {
     }
   }
 }
-@media (width >= 768px) {
-  .job-details {
-    header button {
-      display: block;
-    }
-  }
-}

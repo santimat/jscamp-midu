@@ -1,4 +1,5 @@
 import styles from "@components/css/SearchFormSection.module.css";
+import { useSearchForm } from "@/hooks/useSearchForm.jsx";
 import { useId } from "react";
 
 export function SearchFormSection({ onFilter }) {
@@ -8,24 +9,7 @@ export function SearchFormSection({ onFilter }) {
   const idLocation = useId();
   const idExpLevel = useId();
 
-  function handleSubmit(e) {
-    e.preventDefault();
-
-    // get the data from the form
-    // event.terget -> element that receive the event
-    // event.currentTarget -> element that listens the event
-    const formData = new FormData(e.currentTarget);
-
-    const filters = {
-      // get the value from every filter with .get(name's attribute)
-      text: formData.get(idText),
-      technology: formData.get(idTech),
-      modality: formData.get(idLocation),
-      level: formData.get(idExpLevel),
-    };
-
-    onFilter(filters);
-  }
+  const {handleSubmit } = useSearchForm({idText, idTech, idLocation, idExpLevel, onFilter})
 
   return (
     <section className={styles.jobsSearch}>
@@ -36,7 +20,6 @@ export function SearchFormSection({ onFilter }) {
       <form onChange={handleSubmit} role="search">
         <div className={styles.searchBar}>
           <svg
-            xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
             viewBox="0 0 24 24"

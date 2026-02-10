@@ -55,8 +55,9 @@ useEffect(() => {
 
 ### Custom Hooks
 
-- Permiten extraer logica de codigo y quitarla del componente, además de que nos permite reutilizarla en distintos sitios, se tienen que crea con la la palabra useNombreHook
+- Permiten extraer logica de codigo y quitarla del componente, además de que nos permite reutilizarla en distintos sitios, se tienen que crear siempre con el prefijo use y el nombre que querramos darle.
 - Usando un custom hook, hacemos que en el compontente solo tengamos todo lo relacionado a la UI.
+- Una regla de los custom hooks es que solo se pueden llamar dentro de la funcion principal del componente y no dentro de otras funciones como un handleClick, un useEffect, etc.
 
 ## CSS Modules
 
