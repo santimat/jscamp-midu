@@ -9,7 +9,13 @@ export function SearchFormSection({ onFilter }) {
   const idLocation = useId();
   const idExpLevel = useId();
 
-  const {handleSubmit } = useSearchForm({idText, idTech, idLocation, idExpLevel, onFilter})
+  const { handleSubmit } = useSearchForm({
+    idText,
+    idTech,
+    idLocation,
+    idExpLevel,
+    onFilter,
+  });
 
   return (
     <section className={styles.jobsSearch}>

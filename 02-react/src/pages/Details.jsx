@@ -29,8 +29,15 @@ export function Details() {
       "This position is ideal for a professional passionate about technology and software development, seeking a collaborative and challenging environment.",
   };
 
-  const { title, company, modality, description, responsibilities, location } =
-    exampleJob;
+  const {
+    title,
+    company,
+    description,
+    responsibilities,
+    location,
+    requirements,
+    about,
+  } = exampleJob;
 
   return (
     <div className={styles.jobDetails}>
@@ -67,6 +74,18 @@ export function Details() {
                 <li key={r}>{r}</li>
               ))}
             </ul>
+          </section>
+          <section>
+            <h2>Requisitos</h2>
+            <ul>
+              {requirements.map((r) => (
+                <li key={r}>{r}</li>
+              ))}
+            </ul>
+          </section>
+          <section>
+            <h2>Acerca de la empresa</h2>
+            <p>{about}</p>
           </section>
         </main>
       </article>

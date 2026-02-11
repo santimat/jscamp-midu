@@ -25,10 +25,37 @@
   header {
     border: none;
     padding: 0;
+    margin-bottom: 1.2rem;
   }
 
   section {
-    all: unset !important;
+    display: block !important;
+    text-align: left !important;
+    height: auto !important;
+    margin-bottom: 1.5rem;
+    padding: 0 !important;
+    h2 {
+      text-align: start !important;
+      margin: 0 !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    li {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+    }
+    li:not(li:last-of-type) {
+      margin-bottom: 0.4rem;
+    }
+    li::before {
+      content: "";
+      width: 22px;
+      height: 22px;
+      background-image: url("@icons/check-list.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
   }
 
   h1 {
@@ -40,26 +67,6 @@
 
   button {
     background: #09f;
-  }
-
-  .responsabilities {
-    h2 {
-      text-align: start;
-    }
-
-    li {
-      display: flex;
-      gap: 5px;
-      align-items: center;
-    }
-    li::before {
-      content: "";
-      width: 22px;
-      height: 22px;
-      background-image: url("@icons/check-list.svg");
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
   }
 }
 

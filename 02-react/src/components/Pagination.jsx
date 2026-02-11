@@ -4,7 +4,14 @@ import styles from "@components/css/Pagination.module.css";
 
 // the parameters accept default values
 export function Pagination({ totalPages = 5, currentPage = 1, onPageChange }) {
-  const {handleNextClick,handlePrevClick, handleChangePage, pages, isFirstPage,isLastPage  } = usePagination({totalPages,currentPage,onPageChange})
+  const {
+    handleNextClick,
+    handlePrevClick,
+    handleChangePage,
+    pages,
+    isFirstPage,
+    isLastPage,
+  } = usePagination({ totalPages, currentPage, onPageChange });
 
   return (
     // select class .pagination from object styles
